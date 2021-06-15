@@ -1,2 +1,0 @@
-# blog-frontend
- the frontend
