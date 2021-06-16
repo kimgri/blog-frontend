@@ -20,14 +20,16 @@ const Posts = ({ id }) => {
 
   return (
     <div>
-      <h1>{post.title}</h1>
-      <p>{post.text}</p>
-      <p>
-        <em>Published {new Date(post.published_at).toLocaleString()}</em>
-      </p>
-      <p>
-        <Link to="/">Go back</Link>
-      </p>
+      <body style="background-color:powderblue;">
+        <h1>{post.title}</h1>
+        <p>{post.text}</p>
+        <p>
+          <em>Published {new Date(post.published_at).toLocaleString()}</em>
+        </p>
+        <p>
+          <Link to="/">Go back</Link>
+        </p>
+      </body>
     </div>
   );
 };
