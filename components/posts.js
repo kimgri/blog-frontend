@@ -32,7 +32,11 @@ const Posts = () =>
         </div>
 
       ))}
+      <div>
+        <h1 style={{backgroundColor: "red"}}>Implemented Åland Colors</h1>
+       </div>
     </div>
+    
 
 
   );
