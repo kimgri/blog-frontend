@@ -19,7 +19,7 @@ const Posts = ({ id }) => {
   if (!Object.keys(post).length) return <div />;
 
   return (
-    <div>
+    <div style="background-color:grey;">
       <h1>{post.title}</h1>
       <p>{post.text}</p>
       <p>
