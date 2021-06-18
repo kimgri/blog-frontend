@@ -26,6 +26,13 @@ ReactDOM.render(
       <div>
         <h1 style={{backgroundColor: "blue"}}>backed styling style</h1>
        </div>
+       <div>
+       <h1>The button Element</h1>
+          <button type="button" onclick="location.href='https://google.com';">Click Me!</button>
+       </div>
+
+ 
+
     </div>
 
   </React.StrictMode>,
