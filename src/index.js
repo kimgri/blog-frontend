@@ -27,8 +27,8 @@ ReactDOM.render(
         <h1 style={{backgroundColor: "blue"}}>backed styling style</h1>
        </div>
        <div>
-       <h1>The button Element</h1>
           <button type="button" onclick="location.href='https://google.com';">Click Me!</button>
+          <a href="https://blogfrontend.paf.dev/api/posts">GO TO POST AND USE WORKER </a>
        </div>
 
  
