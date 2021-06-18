@@ -16,13 +16,13 @@ const Posts = ({ id }) => {
     getPost();
   }, [id]);
 
-  if (!Object.keys(post).length) return <div />;
+ // if (!Object.keys(post).length) return <div />;
 
   return (
     <div >
       <h1>{post.title}</h1>
       <p>{post.text}</p>
-      <p style="background-color:grey;">
+      <p >
         <em>Published {new Date(post.published_at).toLocaleString()}</em>
       </p>
       <p>
