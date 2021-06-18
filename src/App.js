@@ -5,6 +5,7 @@ import Post from './components/post'
 
 function App() {
   return (
+    
     <Router>
       <Posts path="/" />
       <Post path="/:id" />
