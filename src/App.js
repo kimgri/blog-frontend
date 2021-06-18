@@ -4,6 +4,9 @@ import Posts from './components/posts'
 import Post from './components/post'
 
 function App() {
+  console.log(Posts);
+  console.log(Post);
+
   return (
     
     <Router>
