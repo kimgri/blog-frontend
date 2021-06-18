@@ -11,7 +11,7 @@ const Posts = () =>
   useEffect(() => {
     const getPosts = async () => {
       const resp = await fetch(
-        "https://serverless-api.paf-dev.workers.dev/"
+        "https://serverless-api.signalnerve.workers.dev/api/posts"
       );
       const postsResp = await resp.json();
       setPosts(postsResp);
