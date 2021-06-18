@@ -16,7 +16,7 @@ const Posts = ({ id }) => {
     getPost();
   }, [id]);
 
- // if (!Object.keys(post).length) return <div />;
+  if (!Object.keys(post).length) return <div />;
 
   return (
     <div >
