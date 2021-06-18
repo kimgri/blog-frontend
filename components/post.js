@@ -7,7 +7,7 @@ const Posts = ({ id }) => {
   useEffect(() => {
     const getPost = async () => {
       const resp = await fetch(
-        `https://serverless-api.signalnerve.workers.dev/api/posts/${id}`
+        `https://serverless-api.paf-dev.workers.dev/api/posts/${id}`
       );
       const postResp = await resp.json();
       setPost(postResp);
@@ -22,7 +22,7 @@ const Posts = ({ id }) => {
     <div >
       <h1>{post.title}</h1>
       <p>{post.text}</p>
-      <p style="background-color:grey;">
+      <p >
         <em>Published {new Date(post.published_at).toLocaleString()}</em>
       </p>
       <p>
