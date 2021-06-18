@@ -24,11 +24,11 @@ const Posts = () =>
 
   return (
     
-    <div style="background-color:grey;">
+    <div>
       <h1>Posts</h1>
       {posts.map((post) => (
         <div key={post.id}>
-          <h2>
+          <h2  style="background-color:grey;">
             <Link to={`/posts/${post.id}`}>{post.title}</Link>
           </h2>
         </div>

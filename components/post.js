@@ -19,10 +19,10 @@ const Posts = ({ id }) => {
   if (!Object.keys(post).length) return <div />;
 
   return (
-    <div style="background-color:grey;">
+    <div >
       <h1>{post.title}</h1>
       <p>{post.text}</p>
-      <p>
+      <p style="background-color:grey;">
         <em>Published {new Date(post.published_at).toLocaleString()}</em>
       </p>
       <p>
