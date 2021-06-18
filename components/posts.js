@@ -1,7 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "@reach/router";
 
-const Posts = () => {
+
+
+
+
+const Posts = () => 
+{
+
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
@@ -17,7 +23,8 @@ const Posts = () => {
   }, []);
 
   return (
-    <div>
+    
+    <div style="background-color:grey;">
       <h1>Posts</h1>
       {posts.map((post) => (
         <div key={post.id}>
@@ -25,9 +32,13 @@ const Posts = () => {
             <Link to={`/posts/${post.id}`}>{post.title}</Link>
           </h2>
         </div>
+
       ))}
     </div>
+
+
   );
+  
 };
 
 export default Posts;
