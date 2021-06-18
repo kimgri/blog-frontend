@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <div  style={{backgroundColor: "blue"}}>
+    <div  style={{backgroundColor: "lightgrey"}}>
       <div >
        <h1 style={{backgroundColor: "blue"}}>This time we have Style!</h1>
       </div>
@@ -28,7 +28,7 @@ ReactDOM.render(
        </div>
        <div>
           <button type="button" onclick="location.href='https://google.com';">Click Me!</button>
-          <a href="https://blogfrontend.paf.dev/api/posts">GO TO POST AND USE WORKER </a>
+          <a href="https://blogfrontend.paf.dev/api/posts">GO TO POST AND USE WORKER</a>
        </div>
 
  
