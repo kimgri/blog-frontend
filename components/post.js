@@ -7,7 +7,7 @@ const Posts = ({ id }) => {
   useEffect(() => {
     const getPost = async () => {
       const resp = await fetch(
-        `https://serverless-api.paf-dev.workers.dev/api/posts/${id}`
+        `/api/posts/${id}`
       );
       const postResp = await resp.json();
       setPost(postResp);
@@ -22,7 +22,7 @@ const Posts = ({ id }) => {
     return <div />;
   }
   return (
-    <div >
+    <div>
         <div>
         <h1 style={{backgroundColor: "red"}}>Implemented Åland Colors</h1>
        </div>
