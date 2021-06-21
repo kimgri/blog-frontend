@@ -3,8 +3,6 @@ import { Link } from "@reach/router";
 
 
 
-
-
 const Posts = () => 
 {
   const [posts, setPosts] = useState([]);
@@ -24,6 +22,9 @@ const Posts = () =>
     
     <div>
       <h1>Posts</h1>
+      <div>
+        <h1 style={{backgroundColor: "red"}}>Implemented Åland Colors</h1>
+       </div>
       {posts.map((post) => (
         <div key={post.id}>
           <h2  style="background-color:grey;">
@@ -32,15 +33,10 @@ const Posts = () =>
         </div>
 
       ))}
-      <div>
-        <h1 style={{backgroundColor: "red"}}>Implemented Åland Colors</h1>
-       </div>
+      
     </div>
     
-
-
   );
-  
 };
 
 export default Posts;
