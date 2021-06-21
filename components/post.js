@@ -16,10 +16,16 @@ const Posts = ({ id }) => {
     getPost();
   }, [id]);
 
-  if (!Object.keys(post).length) return <div />;
-
+  if (!Object.keys(post).length)
+  {
+    console.log("post.js :  if");
+    return <div />;
+  }
   return (
     <div >
+        <div>
+        <h1 style={{backgroundColor: "red"}}>Implemented Åland Colors</h1>
+       </div>
       <h1>{post.title}</h1>
       <p>{post.text}</p>
       <p >

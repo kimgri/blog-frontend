@@ -9,30 +9,27 @@ ReactDOM.render(
     <App />
     <div  style={{backgroundColor: "lightgrey"}}>
       <div >
-       <h1 style={{backgroundColor: "blue"}}>This time we have Style!</h1>
+       <h1 style={{backgroundColor: "blue"}}>1</h1>
       </div>
       <div >
-      <h1 style={{backgroundColor: "yellow"}}>Wow, this styling is so good !</h1>
+      <h1 style={{backgroundColor: "yellow"}}>2</h1>
       </div>
         <div>
-        <h1 style={{backgroundColor: "red"}}>Implemented Åland Colors</h1>
+        <h1 style={{backgroundColor: "red"}}>3</h1>
        </div>
        <div>
-        <h1 style={{backgroundColor: "blue"}}>Wow</h1>
+        <h1 style={{backgroundColor: "blue"}}>4</h1>
        </div>
        <div >
-      <h1 style={{backgroundColor: "yellow"}}>Front page so good</h1>
+      <h1 style={{backgroundColor: "yellow"}}>5</h1>
       </div>
       <div>
-        <h1 style={{backgroundColor: "blue"}}>backed styling style</h1>
+        <h1 style={{backgroundColor: "blue"}}></h1>
        </div>
        <div>
-          <button type="button" onclick="location.href='https://google.com';">Click Me!</button>
+          <button onclick="location.href='https://google.com';">Click Me!</button>
           <a href="https://blogfrontend.paf.dev/api/posts">GO TO POST AND USE WORKER</a>
        </div>
-
- 
-
     </div>
 
   </React.StrictMode>,
