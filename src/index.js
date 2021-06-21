@@ -7,12 +7,12 @@ import companyLogo from './assets/paf.jpg';
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <div  style={{backgroundColor: "lightgrey"}}>
+    <div>
        <div>
          <h1><a href="https://blogfrontend.paf.dev/">Back to intern heaven</a> </h1>
          <h1><a href="https://www.paf.com">paf site</a> </h1>
        </div>
-       <img src={companyLogo} alt="BigCo Inc. logo"/>
+       <img src={companyLogo} alt="Paf logo"/>
 
     </div>
 
