@@ -7,27 +7,10 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <div  style={{backgroundColor: "white"}}>
-      <div >
-       <h1 style={{backgroundColor: "blue"}}>1</h1>
-      </div>
-      <div >
-      <h1 style={{backgroundColor: "yellow"}}>2</h1>
-      </div>
-        <div>
-        <h1 style={{backgroundColor: "red"}}>3</h1>
-       </div>
+    <div  style={{backgroundColor: "grey"}}>
        <div>
-        <h1 style={{backgroundColor: "blue"}}>4</h1>
-       </div>
-       <div >
-      <h1 style={{backgroundColor: "yellow"}}>5</h1>
-      </div>
-      <div>
-        <h1 style={{backgroundColor: "blue"}}></h1>
-       </div>
-       <div>
-          <a href="https://blogfrontend.paf.dev/api/posts">Direct Worker path, not for use</a>
+         <h1><a href="https://blogfrontend.paf.dev/">Go Home</a> </h1>
+      
        </div>
     </div>
 

@@ -18,10 +18,10 @@ const Posts = () => {
 
   return (
     <div>
-      <h1 style={{backgroundColor: "blue"}} >Posts</h1>
+      <h1 style={{backgroundColor: "grey"}} >Posts</h1>
       {posts.map((post) => (
         <div key={post.id}>
-          <h2 style={{backgroundColor: "blue"}}>
+          <h2 style={{backgroundColor: "grey"}}>
             <Link to={`/posts/${post.id}`}>{post.title}</Link>
           </h2>
         </div>
