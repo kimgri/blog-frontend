@@ -27,7 +27,7 @@ ReactDOM.render(
         <h1 style={{backgroundColor: "blue"}}></h1>
        </div>
        <div>
-          <a href="https://blogfrontend.paf.dev/api/posts">GO TO POST AND USE WORKER</a>
+          <a href="https://blogfrontend.paf.dev/api/posts">Direct Worker path, not for use</a>
        </div>
     </div>
 
