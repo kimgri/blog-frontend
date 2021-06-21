@@ -20,7 +20,6 @@ const Posts = ({ id }) => {
 
   return (
     <div>
-      <body style="background-color:powderblue;">
         <h1>{post.title}</h1>
         <p>{post.text}</p>
         <p>
@@ -29,7 +28,6 @@ const Posts = ({ id }) => {
         <p>
           <Link to="/">Go back</Link>
         </p>
-      </body>
     </div>
   );
 };
