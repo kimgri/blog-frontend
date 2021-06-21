@@ -7,7 +7,7 @@ const Posts = () => {
   useEffect(() => {
     const getPosts = async () => {
       const resp = await fetch(
-        "/api/posts"  
+        "/api/tests"  
       );
       const postsResp = await resp.json();
       setPosts(postsResp);
@@ -22,7 +22,7 @@ const Posts = () => {
       {posts.map((post) => (
         <div key={post.id}>
           <h2 style={{backgroundColor: "lightgrey"}}>
-            <Link to={`/${post.id}`}>{post.title}</Link>
+            <Link to={`/${post}`}>{post.title}</Link>
           </h2>
         </div>
       ))}
