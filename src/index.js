@@ -8,7 +8,7 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
     <div>
-       <div style={{backgroundColor: "LightCoral"}}>
+       <div style={{backgroundColor: "Crimson"}}>
          <h1><a href="https://blogfrontend.paf.dev/">Back to intern heaven</a> </h1>
          <h1><a href="https://www.paf.com">paf site</a> </h1>
        </div>
