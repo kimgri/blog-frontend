@@ -9,8 +9,10 @@ ReactDOM.render(
     <App />
     <div  style={{backgroundColor: "grey"}}>
        <div>
-         <h1><a href="https://blogfrontend.paf.dev/">Go Home</a> </h1>
-      
+         <h1><a href="https://blogfrontend.paf.dev/">Home</a> </h1>
+         <h1> <img src="/assets/paf.png" alt="paf logo"> </img></h1>
+         <h1><a href="www.paf.com">paf site</a> </h1>
+
        </div>
     </div>
 
