@@ -18,10 +18,10 @@ const Posts = () => {
 
   return (
     <div>
-      <h1 style={{backgroundColor: "lightblue"}} >Blog title</h1>
+      <h1 style={{backgroundColor: "LightBlue"}} >CloudFlare Worker Powered website! (with CF pages too)</h1>
       {posts.map((post) => (
         <div key={post.id}>
-          <h2 style={{backgroundColor: "lightgrey"}}>
+          <h2 style={{backgroundColor: "LightYellow"}}>
             <Link to={`/${post.id}`}>{post.title}</Link>
           </h2>
         </div>
