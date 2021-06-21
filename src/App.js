@@ -10,7 +10,6 @@ function App() {
     <Router>
       <Posts path="/" />
       <Post path="/:id" />
-     
     </Router>
     
   );

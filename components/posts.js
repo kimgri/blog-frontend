@@ -9,7 +9,7 @@ const Posts = () =>
   useEffect(() => {
     const getPosts = async () => {
       const resp = await fetch(
-        "/api/posts"
+        "https://blogfrontend.paf.dev/api/posts"
       );
       const postsResp = await resp.json();
       setPosts(postsResp);

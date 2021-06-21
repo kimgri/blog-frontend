@@ -7,7 +7,7 @@ const Posts = ({ id }) => {
   useEffect(() => {
     const getPost = async () => {
       const resp = await fetch(
-        `/api/posts/${id}`
+        `https://blogfrontend.paf.dev/api/posts/${id}`
       );
       const postResp = await resp.json();
       setPost(postResp);
