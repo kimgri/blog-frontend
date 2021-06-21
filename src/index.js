@@ -3,17 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import companyLogo from './assets/paf.jpg';
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <div  style={{backgroundColor: "grey"}}>
+    <div  style={{backgroundColor: "lightgrey"}}>
        <div>
-         <h1><a href="https://blogfrontend.paf.dev/">Home</a> </h1>
-         <h1> <img src="/assets/paf.png" alt="paf logo"> </img></h1>
-         <h1><a href="www.paf.com">paf site</a> </h1>
-
+         <h1><a href="https://blogfrontend.paf.dev/">Back to intern heaven</a> </h1>
+         <h1><a href="https://www.paf.com">paf site</a> </h1>
        </div>
+       <img src={companyLogo} alt="BigCo Inc. logo"/>
+
     </div>
 
   </React.StrictMode>,
